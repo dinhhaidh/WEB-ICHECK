@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WEB-ICHECK</title>
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        
+        <!--=============== fonts ===============-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link href="https://fonts.googleapis.com/css2?family=Allerta&amp;family=Lexend:wght@100..900&amp;display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./scss/main.css">
+    
+        <!--=============== Jquery ===============-->
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
+    </head>
+<body>
+    <header>
+        <div class="header shadow-header" id="header">
+            <nav class="nav container">
+                <div class="nav__data">
+                    <a href="#" class="nav__logo">
+                        <img src="./img/logo.svg" alt="" class="nav-logo">
+                    </a>
+                </div>
+
+                <!-- =========== NAV MENU   ============= -->
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link">Trang chủ</a></li>
+
+                        <li class="nav__item"><a href="#" class="nav__link">Bảng giá</a></li>
+
+                        <!-- ========= DROPDOWN 1 ========== -->
+                        <li class="dropdown__item ">
+                            <div class="nav__link">
+                                Giải pháp ngành<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                                
+                            </div>
+
+                            <ul class="dropdown__menu">
+                                <li>
+                                    <a href="#" class="dropdown__link">
+                                         Ngành Dược phẩm
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="dropdown__link">
+                                        Ngành Vật tư nông nghiệp
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="dropdown__link">
+                                        Ngành Thiết bị điện
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="dropdown__link">
+                                        Ngành Thiết bị gia dụng
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="dropdown__link">
+                                        Ngành Vật liệu xây dựng
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+
+                        <li class="nav__item"><a href="#" class="nav__link ">Tin tức</a></li>
+
+                        <li class="nav__item"><a href="#" class="nav__link">Hỗ trợ</a></li>
+
+                        <li class="nav__item"><a href="#" class="nav__link">Liên hệ</a></li>
+
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+                <div class="nav__login">
+                    <div class="nav__actions">
+                        <img src="./img/VN.svg" alt="image" class="nav__img">
+                            VIE
+                        <i class="ri-arrow-down-s-fill  dropdown__arrow"></i>
+                    </div>
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-3-line nav__burge"></i>
+                    </div>
+
+                    <div class="nav__actions">
+                        <button class="nav__button button">
+                            ĐĂNG KÝ DÙNG THỬ
+                        </button>
+                        
+                    </div>
+                </div>
+
+            </nav>
+        </div>
+
+        <div class="header__container container section">
+            <div class="header__data" data-sr-id="0" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 2.5s cubic-bezier(0.5, 0, 0, 1) 0.4s, transform 2.5s cubic-bezier(0.5, 0, 0, 1) 0.4s;">
+                <h1 class="title">Giải Pháp  <br>Quản Lý Hệ Thống  <br> Phân Phối</h1>
+                <h3 class="header__heading">Ngành Dược Phẩm - Hóa Mỹ Phẩm</h3>
+
+                <div class="header__buttons">
+                    <button class="header__green">ĐĂNG KÝ NGAY</button>
+                </div>
+            </div>
+            <div class="header__images" data-sr-id="5" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 2.5s cubic-bezier(0.5, 0, 0, 1) 0.4s, transform 2.5s cubic-bezier(0.5, 0, 0, 1) 0.4s;">
+                <img src="./img/home.png" alt="image" class="heder__img">
+            </div>
+        </div>
+        
+        <div class="header__bg"></div>
+    </header>
+
+
+    <main class="main">
+        <section class="home section">
+            <div class="home__container container">
+                <div class="home__title">
+                    Giải Pháp iCheck DMS Plus Cho Ngành Dược Phẩm
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

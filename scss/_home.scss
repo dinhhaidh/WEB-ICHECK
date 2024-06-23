@@ -1,0 +1,11 @@
+.home{
+    background-color: rgb(51, 180, 74);
+    &__title{
+        font-size: clamp(1.5rem, 1.23684rem + 1.31579vw, 2.5rem);
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+        margin-bottom: 1rem;
+        line-height: 1.4;
+        text-align: center;
+    }
+}
